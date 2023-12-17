@@ -77,33 +77,33 @@
     <div id="result"></div>
   </div>
 
-  <script>
-    function calculateBMI() {
-      var weight = parseFloat(document.getElementById('weight').value);
-      var height = parseFloat(document.getElementById('height').value);
-      var unit = document.getElementById('unit').value;
+<script>
+  function calculateBMI() {
+    var weight = parseFloat(document.getElementById('weight').value);
+    var height = parseFloat(document.getElementById('height').value);
+    var unit = document.getElementById('unit').value;
 
-      if (isNaN(weight) || isNaN(height)) {
-        alert('Please enter valid values for weight and height.');
-        return;
-      }
-
-      if (unit === 'imperial') {
-        // Convert weight from pounds to kilograms
-        weight *= 0.453592;
-        // Convert height from inches to meters
-        height *= 0.0254;
-      }
-
-      var bmi = weight / (height * height);
-
-      displayResult(bmi);
+    if (isNaN(weight) || isNaN(height)) {
+      alert('Please enter valid values for weight and height.');
+      return;
     }
 
-    function displayResult(bmi) {
-      var resultElement = document.getElementById('result');
-      resultElement.innerHTML = 'Your BMI is: ' + bmi.toFixed(2);
+    if (unit === 'imperial') {
+      // Convert weight from pounds to kilograms
+      weight *= 0.453592;
+      // Convert height from inches to meters
+      height *= 0.0254;
     }
-  </script>
+
+    var bmi = weight / (height * height);
+
+    displayResult(bmi);
+  }
+
+  function displayResult(bmi) {
+    var resultElement = document.getElementById('result');
+    resultElement.innerHTML = 'Your BMI is: ' + bmi.toFixed(2);
+  }
+</script>
 </body>
 </html>
