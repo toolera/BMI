@@ -24,7 +24,7 @@ This is an Advanced BMI (Body Mass Index) Calculator that allows users to calcul
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/bmi-calculator.git
+   git clone https://github.com/ismat-samadov/bmi-calculator.git
    ```
 
 2. Open the `index.html` file in a web browser.
