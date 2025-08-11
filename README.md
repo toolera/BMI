@@ -1,68 +1,98 @@
----
+# BMI Calculator
 
-# Advanced BMI Calculator
-
-## Description
-
-This is an Advanced BMI (Body Mass Index) Calculator that allows users to calculate their BMI based on weight and height. The calculator supports both metric (kg, cm) and imperial (lbs, in) units.
+A modern, responsive BMI (Body Mass Index) calculator built with Next.js 14, TypeScript, and Tailwind CSS. Features advanced SEO optimization and is deployed on Vercel.
 
 ## Features
 
-- Input fields for weight and height.
-- Unit selection for metric or imperial.
-- Calculate BMI button.
-- Display of calculated BMI result.
+- 🧮 **Accurate BMI Calculation** - Calculate BMI with metric (kg/cm) or imperial (lbs/inches) units
+- 📱 **Mobile-First Design** - Fully responsive and optimized for all devices
+- ⚡ **Fast & Lightweight** - Built with Next.js 14 for optimal performance
+- 🎨 **Modern UI** - Clean, intuitive interface with smooth animations
+- 🔍 **SEO Optimized** - Advanced SEO with structured data and meta tags
+- 🌐 **PWA Ready** - Progressive Web App capabilities
+- ♿ **Accessible** - WCAG compliant and keyboard navigable
 
-## Technologies Used
+## BMI Categories
 
-- HTML5
-- CSS3
-- JavaScript
+- **Underweight**: BMI < 18.5
+- **Normal weight**: BMI 18.5-24.9
+- **Overweight**: BMI 25-29.9
+- **Obese**: BMI ≥ 30
 
-## How to Use
+## Tech Stack
 
-1. Clone the repository to your local machine:
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
-   ```bash
-   git clone https://github.com/ismat-samadov/bmi-calculator.git
-   ```
+## Getting Started
 
-2. Open the `index.html` file in a web browser.
+### Prerequisites
 
-3. Enter your weight and height in the respective input fields.
+- Node.js 18+ 
+- npm or yarn
 
-4. Select the unit system (metric or imperial) from the dropdown.
+### Installation
 
-5. Click the "Calculate BMI" button to see the result.
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/yourusername/bmi-calculator.git
+cd bmi-calculator
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Deployment
+
+### Deploy to Vercel
+
+1. Push your code to GitHub
+2. Import your repository in [Vercel](https://vercel.com)
+3. Deploy with default settings
+
+The app will be automatically deployed with optimal settings for Next.js.
+
+## SEO Features
+
+- Meta tags optimization
+- Open Graph tags for social sharing
+- Twitter Card support
+- Structured data (JSON-LD)
+- Sitemap generation
+- Robots.txt
+- Canonical URLs
+
+## Performance
+
+- Server-side rendering (SSR)
+- Image optimization
+- Font optimization
+- CSS optimization
+- JavaScript minification
 
 ## Contributing
 
-If you'd like to contribute to the project, please follow these steps:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
-1. Fork the repository.
+## License
 
-2. Create a new branch for your feature or bug fix:
+This project is open source and available under the [MIT License](LICENSE).
 
-   ```bash
-   git checkout -b feature-new-feature
-   ```
+## Disclaimer
 
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add new feature"
-   ```
-
-4. Push your branch to your fork:
-
-   ```bash
-   git push origin feature-new-feature
-   ```
-
-5. Open a pull request on the original repository.
-
-## Acknowledgments
-
-- The design of the BMI calculator is inspired by [XYZ BMI Calculator](https://www.xyzbmi.com/).
-
----
+This BMI calculator is for informational purposes only and should not be used as a substitute for professional medical advice. Always consult with a healthcare provider for medical guidance.
