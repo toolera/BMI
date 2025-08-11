@@ -77,7 +77,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start">
                   <span className="bg-primary-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-medium mr-3 mt-0.5 flex-shrink-0">4</span>
-                  Click "Calculate BMI" to get your results instantly
+                  Click &quot;Calculate BMI&quot; to get your results instantly
                 </li>
               </ol>
             </div>
@@ -87,7 +87,7 @@ export default function HomePage() {
                 Important Note
               </h2>
               <p className="text-amber-700 text-sm leading-relaxed">
-                BMI is a screening tool and not a diagnostic tool. It doesn't account for 
+                BMI is a screening tool and not a diagnostic tool. It doesn&apos;t account for 
                 muscle mass, bone density, or other factors. Always consult with a healthcare 
                 provider for personalized medical advice.
               </p>
